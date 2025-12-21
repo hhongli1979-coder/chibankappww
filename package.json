@@ -6,7 +6,9 @@
     "build": "tsc -b --noCheck && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "kill": "fuser -k 5000/tcp || true"
+    "kill": "fuser -k 5000/tcp || true",
+    "deploy": "npm run build && echo '✅ Build complete! Upload dist/ folder to your hosting service'",
+    "serve": "npm run build && npm run preview"
   },
   "engines": {
     "node": ">=18"
