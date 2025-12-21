@@ -1,12 +1,42 @@
-# OmniCore Wallet - Runpod 部署指南 / Deployment Guide
+# OmniCore Wallet - 部署指南 / Deployment Guide
 
-简单三步，把网站部署到 Runpod！
-Deploy your website to Runpod in 3 simple steps!
+---
+
+## ⚠️ 重要提示 / Important Notice
+
+### 🎯 推荐方案：使用 Vercel（免费 + 3分钟）
+
+**在继续使用 Runpod 之前，请先考虑 Vercel：**
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hhongli1979-coder/AICHI3LM11.29)
+
+**为什么选择 Vercel 而不是 Runpod？**
+
+| 对比项 | Vercel | Runpod |
+|--------|--------|--------|
+| **费用** | 免费 ✅ | 按小时收费 ❌ |
+| **部署时间** | 3分钟 ✅ | 15-30分钟 ❌ |
+| **难度** | 点一个按钮 ✅ | 需要配置容器 ❌ |
+| **HTTPS** | 自动 ✅ | 需要配置 ❌ |
+| **CDN** | 全球 CDN ✅ | 无 ❌ |
+| **维护** | 零维护 ✅ | 需要保持运行 ❌ |
+| **适用场景** | 静态网站 ✅ | GPU计算任务 ❌ |
+
+**💡 建议：除非你有特殊原因，否则使用 Vercel！**
+
+详细对比请查看：[为什么不用 Runpod](./DONT_USE_RUNPOD.md) | [Vercel 部署教程](./VERCEL_DEPLOY.md)
+
+---
+
+## 如果你仍然要使用 Runpod...
+
+下面是完整的 Runpod 部署指南。
 
 ## 前置要求 / Prerequisites
 
 - Runpod 账户 / Runpod account
 - Node.js >= 18
+- 基本的命令行知识 / Basic command line knowledge
 
 ---
 
