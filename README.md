@@ -6,6 +6,8 @@ Enterprise-grade Multi-Chain Smart Wallet Platform for managing crypto assets, m
 
 ## 🚀 一键部署（3分钟搞定）
 
+**🎯 [查看完整部署指南 →](./START_HERE.md)**
+
 **别折腾了，直接点这个按钮：**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hhongli1979-coder/AICHI3LM11.29)
