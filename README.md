@@ -2,6 +2,36 @@
 
 Enterprise-grade Multi-Chain Smart Wallet Platform for managing crypto assets, multi-signature wallets, global payments, and DeFi integrations.
 
+---
+
+## 🚀 一键部署（3分钟搞定）
+
+**别折腾了，直接点这个按钮：**
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hhongli1979-coder/AICHI3LM11.29)
+
+**免费 • 自动 HTTPS • 全球 CDN • 自动部署**
+
+<details>
+<summary>📖 为什么不用 Runpod？点这里查看</summary>
+
+Runpod 是为 GPU 计算设计的，不适合部署静态网站：
+- ❌ 贵（按小时收费）
+- ❌ 复杂（需要配置容器）
+- ❌ 不稳定（Pod 可能被回收）
+
+**用 Vercel 的好处：**
+- ✅ 完全免费
+- ✅ 3分钟部署
+- ✅ 自动 HTTPS
+- ✅ 全球 CDN
+- ✅ 自动部署
+
+[查看详细对比 →](./DONT_USE_RUNPOD.md)
+</details>
+
+---
+
 ## 🚀 快速部署 / Quick Deploy
 
 ### 方法1：Vercel（最简单，3分钟搞定）
