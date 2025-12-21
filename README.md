@@ -108,29 +108,42 @@ npm run preview
 
 ### 🚀 Quick Deploy (推荐)
 
+**最快方式 - Vercel 一键部署:**
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hhongli1979-coder/AICHI3LM11.29)
+
 **一键部署脚本 / One-click deployment:**
 ```bash
-./deploy.sh
+./deploy.sh          # Mac/Linux
+deploy.bat           # Windows
 ```
 
-**或手动部署 / Or manual deployment:**
+**或者手动:**
 ```bash
 npm install
 npm run build
-# 然后上传 dist/ 文件夹到任何静态网站托管服务
-# Then upload the dist/ folder to any static hosting service
+# 上传 dist/ 文件夹到任何静态托管服务
 ```
 
-### 部署选项 / Deployment Options
+### 📖 部署文档
 
-1. **最简单 / Easiest**: [Vercel](https://vercel.com) or [Netlify](https://netlify.com) - 免费，拖拽即可
-2. **GitHub Pages**: 免费静态托管
-3. **Runpod**: 查看 [快速部署指南](./QUICK_DEPLOY.md)
-4. **Docker**: 查看 [完整部署文档](./DEPLOYMENT.md)
+- 🔥 [3分钟部署](./3MIN_DEPLOY.md) - **从这里开始！**
+- 📋 [部署选项对比](./WHICH_DEPLOYMENT.md) - 帮你选择最适合的方式
+- 💡 [快速部署指南](./QUICK_DEPLOY.md) - 傻瓜式教程
+- 📚 [完整部署文档](./DEPLOYMENT.md) - 包含 Runpod、Docker 等所有方式
+- 📊 [部署选项总览](./DEPLOYMENT_OPTIONS.md) - 所有方案对比
 
-**推荐阅读:**
-- 💡 [傻瓜式部署指南](./QUICK_DEPLOY.md) - 5分钟搞定
-- 📚 [完整部署文档](./DEPLOYMENT.md) - 所有部署方法详解
+### 部署选项
+
+| 方式 | 难度 | 时间 | 费用 | 文档 |
+|------|------|------|------|------|
+| Vercel | ⭐ | 3分钟 | 免费 | [3MIN_DEPLOY.md](./3MIN_DEPLOY.md) |
+| Netlify | ⭐ | 3分钟 | 免费 | [3MIN_DEPLOY.md](./3MIN_DEPLOY.md) |
+| GitHub Pages | ⭐⭐ | 5分钟 | 免费 | [3MIN_DEPLOY.md](./3MIN_DEPLOY.md) |
+| Docker | ⭐⭐⭐ | 10分钟 | VPS费用 | [DEPLOYMENT.md](./DEPLOYMENT.md) |
+| Runpod | ⭐⭐⭐⭐⭐ | 15分钟 | 按小时 | [DEPLOYMENT.md](./DEPLOYMENT.md) |
+
+**💡 建议: 用 Vercel，3分钟搞定，完全免费！**
 
 ## License
 
